@@ -4,6 +4,8 @@ import "../../style/style.css"
 
 import { useNavigate } from "react-router-dom";
 
+import {Circle} from "../Button/circle.js"
+
 export function ChooseButton() {
 
     const navigate = useNavigate();
@@ -15,6 +17,20 @@ export function ChooseButton() {
     return (
       <div className="choose-btn" onClick={handleStart}>
         <p className="text3">선택하기</p>
+      </div>
+    );
+}
+
+export function StartButton() {
+    const navigate = useNavigate();
+    const handleStart = () => {
+      navigate("/game");
+    };
+
+    return (
+      <div className="start-btn" onClick={handleStart}>
+        <p className="text3-1">시작</p>
+        <Circle />
       </div>
     );
 }

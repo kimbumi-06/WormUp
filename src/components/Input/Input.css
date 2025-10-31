@@ -1,0 +1,10 @@
+.input {
+    display: inline-flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 12px;
+        background: var(--black7, #F0F6F1);
+}

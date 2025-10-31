@@ -1,0 +1,76 @@
+.bg {
+    background: var(--black1, #111313);
+    display: flex;
+
+    color: #FFF;
+    width: 100%;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.text1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text2 {
+    color: var(--black5, #C2CCC5);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.text3 {
+    color: var(--black1, #111313);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.new-text {
+    color: #FFF;
+    font-family: "Cafe24 PRO UP";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+.highlight {
+    color: var(--green3, #E0FF5F);
+}
+
+.box1 .text2 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.box1 .new-text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+

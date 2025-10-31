@@ -21,7 +21,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 0.1;
 }
 
 .text2 {
@@ -32,6 +32,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    
 
 }
 
@@ -46,16 +48,23 @@
     /* 25.2px */
 }
 
+@font-face {
+    font-family: "Cafe24 PRO UP";
+    font-weight: 400;
+    src: url("../components/font/Cafe24PROUP.woff2");
+}
+
 .new-text {
     color: #FFF;
     font-family: "Cafe24 PRO UP";
     font-size: 32px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    line-height: 0.2;
 
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 0px;
+
+
 }
 
 

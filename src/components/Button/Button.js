@@ -4,7 +4,6 @@ import "../../style/style.css"
 
 import { useNavigate } from "react-router-dom";
 
-import {Circle} from "../Button/circle.js"
 
 export function ChooseButton() {
 
@@ -29,8 +28,7 @@ export function StartButton() {
 
     return (
       <div className="start-btn" onClick={handleStart}>
-        <p className="text3-1">시작</p>
-        <Circle />
+        <p className="text3">시작</p>
       </div>
     );
 }

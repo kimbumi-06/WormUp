@@ -1,18 +1,13 @@
-
-import wormup from "../../components/image/wormup.svg";
-
 import "../../style/style.css";
+import {Box2} from "../../components/Box/Box.js"
 
 
 function GamePage() {
   return (
     <div className="bg">
-
-      <img src={wormup} alt="내 로고" />
+      <Box2 children="text">의문점</Box2>
       
       <div>
-        <p className="text1">러닝 시작하기</p>
-        <p className="text2">게임 모드를 선택하세요.</p>
       </div>
 
     </div>

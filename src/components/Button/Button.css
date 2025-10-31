@@ -16,8 +16,6 @@
 
 
 .start-btn {
-    position: relative;
-
     width: 128px;
     height: 128px;
     flex-shrink: 0;
@@ -25,41 +23,18 @@
     fill: var(--black4, #7D8D81);
 
     cursor: pointer;
+    border-radius: 50%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+    background-color: #E0FF5F;
+
+    margin-top: 90px;
 }
 
-.start-circle-bg {
-    display: block;
-    width: 100%;
-    height: 100%;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-
-    cx: 64;
-    cy: 64; 
-    r: 64; 
-    fill: #CAF201;
-    
-    margin-top: auto;
-}
-
-.text3-1 {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    z-index: 2;
-
-    color: var(--black1, #111313);
-    text-align: center;
-    font-family: Pretendard;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-}

@@ -23,3 +23,14 @@ export function Box1() {
     );
 
 }
+
+export function Box2() {
+
+    return (
+      <div className="box2">
+        <p className="new-text">대충숫자</p>
+        <p className="text2">꼬리 길이</p>
+      </div>
+    );
+
+}
